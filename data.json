@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "text": "Buy a bulk of milk",
+    "completed": false,
+    "completedAt": ""
+  },
+  {
+    "id": 2,
+    "text": "Meeting with John",
+    "completed": false,
+    "completedAt": ""
+  },
+  {
+    "id": 3,
+    "text": "Take kids to the party",
+    "completed": false,
+    "completedAt": ""
+  },
+  {
+    "id": 4,
+    "text": "Pick up kids from party",
+    "completed": false,
+    "completedAt": ""
+  },
+  {
+    "id": 5,
+    "text": "Prepare food for familiy",
+    "completed": false,
+    "completedAt": ""
+  }
+]
