@@ -1,0 +1,18 @@
+module.exports = `
+  type Todo {
+    id: Int!
+    text: String!
+    completed: Boolean!
+    completedAt: String!
+  }
+
+  type Query {
+    getTodos: [Todo!]!
+  }
+
+  type Mutation {
+    addTodo(text: String!): Todo!
+    updateTodo(id: Int!): Todo!
+    deleteTodo(id:Int!): Todo!
+  }
+`;
