@@ -73,6 +73,7 @@ class TodoList extends Component {
 
   render() {
     const { getTodos: { loading, getTodos = [], error } = {} } = this.props;
+    const todos = [...getTodos].sort((a, b) => a.id > b.id);
     return (
       <TodoListWrapper>
         <Input
@@ -94,7 +95,7 @@ class TodoList extends Component {
             </Dimmer>
             {!loading &&
               !error &&
-              getTodos.map(todo => (
+              todos.map(todo => (
                 <TodoItem
                   key={todo.id}
                   todo={todo}
